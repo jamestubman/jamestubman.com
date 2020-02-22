@@ -1,4 +1,53 @@
 
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@font-face {
+  font-family: "Manrope VF";
+  src: url("../fonts/manropeGX.ttf") format("truetype-variations");
+  font-style: normal;
+  font-weight: 200 800; }
+
+@font-face {
+  font-family: "Manrope";
+  src: url("../fonts/manrope-extrabold.woff2") format("woff2"),
+  url("../fonts/manrope-extrabold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 800; }
+@font-face {
+  font-family: "Manrope";
+  src: url("../fonts/manrope-bold.woff2") format("woff2"),
+  url("../fonts/manrope-bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 700; }
+@font-face {
+  font-family: "Manrope";
+  src: url("../fonts/manrope-semibold.woff2") format("woff2"),
+  url("../fonts/manrope-semibold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 600; }
+@font-face {
+  font-family: "Manrope";
+  src: url("../fonts/manrope-medium.woff2") format("woff2"),
+  url("../fonts/manrope-medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 500; }
+@font-face {
+  font-family: "Manrope";
+  src: url("../fonts/manrope-regular.woff2") format("woff2"),
+  url("../fonts/manrope-regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400; }
+@font-face {
+  font-family: "Manrope";
+  src: url("../fonts/manrope-light.woff2") format("woff2"),
+  url("../fonts/manrope-light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 300; }
+@font-face {
+  font-family: "Manrope";
+  src: url("../fonts/manrope-extralight.woff2") format("woff2"),
+  url("../fonts/manrope-extralight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 200; }
 
 .App {
   text-align: center;
@@ -13,6 +62,26 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.HeaderSection {
+  width: 100vw;
+  height: 100vh;
+  background: url('../images/header.jpg') no-repeat;
+  background-position-x: center;
+  background-position-y: -20em;
+  background-size: cover;
+  text-align: left;
+  display: flex;
+  justify-content: flex-start;
+}
+.HeaderSection h1 {
+  font-family: 'Manrope' sans-serif;
+  padding-left: 2%;
+  padding-top: 1%;
+  font-size: 3em;
+  font-weight: 600;
+  
 }
 
 .App-header {
@@ -30,11 +99,21 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.jumbotron-fluid {
+  background: url('../images/header.jpg') no-repeat center;
+  background-size: cover;
+  color: #ecf0f1;
+  min-height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.jumbotron-fluid h1 {
+  font-size: 3em;
+  font-family: Roboto;
+}
+.container-fluid {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  color: #ecf0f1;
 }

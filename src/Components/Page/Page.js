@@ -3,14 +3,12 @@
  */
 
 import React from 'react'
-import FirstPage from './Body/body'
-import Header from './Header/Header'
+import Body from './Body/body'
 
 export default () => {
     return (
         <div>
-            <Header />
-            <FirstPage />
+          <Body />
         </div>
 
 
