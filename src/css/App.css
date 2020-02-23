@@ -69,9 +69,10 @@
   height: 100vh;
   background: url('../images/header.jpg') no-repeat;
   background-position-x: center;
-  background-position-y: -20em;
+  background-position-y: -35em;
   background-size: cover;
   text-align: left;
+  flex-direction: column;
   display: flex;
   justify-content: flex-start;
 }
@@ -83,37 +84,36 @@
   font-weight: 600;
   
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Section {
+    width: 100vw;
+    min-height: 40vh;
+    background: #fff;
+    color: #000;
+}
+.SectionTitle {
+  font-family: 'Manrope' sans-serif;
+  padding-left: 4%;
+  padding-top: 2%;
+  font-size: 2.5em;
+  font-weight: 600;
+  text-decoration: underline;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-.jumbotron-fluid {
-  background: url('../images/header.jpg') no-repeat center;
-  background-size: cover;
-  color: #ecf0f1;
-  min-height: 30vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.jumbotron-fluid h1 {
-  font-size: 3em;
-  font-family: Roboto;
-}
 .container-fluid {
   padding-left: 0 !important;
   padding-right: 0 !important;
   color: #ecf0f1;
+}
+
+.MainTitle {
+  align-self: center;
+  margin-top: 4%;
+  font-size: 2.9em;
+
+}
+.MainSubtitle {
+  align-self: center;
+  margin-top: 1.5%;
+  color: #7f8c8d;
 }

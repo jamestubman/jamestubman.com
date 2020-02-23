@@ -1,8 +1,13 @@
 import React from 'react'
 import HeaderSection from './HeaderSection/HeaderSection'
+import Work from './Sections/Work'
 export default () => {
     return (
-        <HeaderSection />
+        <React.Fragment>
+            <HeaderSection />
+            <Work />
+        </React.Fragment>
+    
     )
     
 }
