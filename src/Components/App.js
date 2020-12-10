@@ -1,22 +1,14 @@
-import React from "react"
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
-import { Container } from "react-bootstrap"
-import styles from "../css/App.css"
+import React, { Suspense } from "react"
 import "bootstrap/dist/css/bootstrap.min.css"
-
-import Page from "./Page/Page"
+import { BrowserRouter as Router } from "react-router-dom"
+import Routing from "Components/Pages"
 
 export default () => (
-    <Router>
-        <div className={styles.header}>
-            <Container fluid>
-                <Page />
-            </Container>
-        </div>
-        <div className="page">
-            <Switch>
-                <Route exact path="/" />
-            </Switch>
-        </div>
-    </Router>
+    <>
+        <Router>
+            <Suspense fallback={<div>Loading...</div>}>
+                <Routing />
+            </Suspense>
+        </Router>
+    </>
 )

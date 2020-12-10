@@ -1,0 +1,121 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "title": "Customer Experience Centre",
+            "type": "Applications and Server",
+            "paragraph": "",
+            "skills": [
+                "React",
+                "Node JS",
+                "Socket IO",
+                "AWS",
+                "Heroku"
+            ],
+            "assets": []
+        },
+        {
+            "id": 2,
+            "title": "Pharmaceutical Applications",
+            "type": "Touch Applications",
+            "skills": [
+                "Cordova",
+                "Node JS",
+                "JS ES2020"
+            ],
+            "paragraph": "",
+            "assets": []
+        },
+        {
+            "id": 3,
+            "title": "Pharmaceutical Event Websites",
+            "type": "Web Applications",
+            "skills": [
+                "React",
+                "AWS",
+                "Node JS",
+                "Redux"
+            ],
+            "paragraph": "",
+            "assets": []
+        },
+        {
+            "id": 4,
+            "title": "iPad Wall",
+            "type": "iPad Applications",
+            "skills": [
+                "Cordova",
+                "Node JS",
+                "Socket IO"
+            ],
+            "paragraph": "",
+            "assets": []
+        },
+        {
+            "id": 5,
+            "title": "Internal mobile application",
+            "type": "iOS / Android application and CMS",
+            "skills": [
+                "MYSQL",
+                "Node JS",
+                "React",
+                "Cordova",
+                "JS ES2020",
+                "AWS"
+            ],
+            "paragraph": "",
+            "assets": []
+        },
+        {
+            "id": 6,
+            "title": "Retail Event Platform",
+            "type": "React Application with server",
+            "skills": [
+                "MYSQL",
+                "Node JS",
+                "React",
+                "JS ES2020",
+                "AWS"
+            ],
+            "paragraph": "",
+            "assets": []
+        },
+        {
+            "id": 7,
+            "title": "Photowall's",
+            "type": "Server and Electron application",
+            "skills": [
+                "Cordova",
+                "Node JS",
+                "Socket IO"
+            ],
+            "paragraph": "",
+            "assets": []
+        },
+        {
+            "id": 8,
+            "title": "Multi-device quiz",
+            "type": "Server, Electron and iOS application",
+            "skills": [
+                "Cordova",
+                "Node JS",
+                "Socket IO",
+                "React"
+            ],
+            "paragraph": "",
+            "assets": []
+        },
+        {
+            "id": 9,
+            "title": "Company training experience",
+            "type": "",
+            "skills": [
+                "Cordova",
+                "Node JS",
+                "Socket IO"
+            ],
+            "paragraph": "",
+            "assets": []
+        }
+    ]
+}
