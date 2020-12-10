@@ -13,7 +13,6 @@ export default () => (
         <ContainerItem>
             <Jumbo>
                 <h1>Full-stack Developer</h1>
-                <p>Skills:</p>
             </Jumbo>
         </ContainerItem>
     </>
