@@ -6,7 +6,6 @@ export const GlobalStyle = createGlobalStyle`
         padding: 0;
         width: 100%;
         height: 100%;
-        overflow: hidden;
     }
     body, #root {
         margin: 0;
@@ -16,6 +15,7 @@ export const GlobalStyle = createGlobalStyle`
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
+        overflow-y: "auto";
     }
 
 `
