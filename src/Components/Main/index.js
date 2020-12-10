@@ -3,7 +3,9 @@
  *
  */
 import React from "react"
-import { Jumbo, ContainerItem } from "Components/Main/styles"
+import { ContainerItem } from "Components/Main/styles"
+import Jumbotron from "Components/Main/Jumbo"
+import About from "Components/Main/About"
 
 import Header from "Components/Header"
 
@@ -11,9 +13,8 @@ export default () => (
     <>
         <Header />
         <ContainerItem>
-            <Jumbo>
-                <h1>Full-stack Developer</h1>
-            </Jumbo>
+            <Jumbotron />
+            <About id="about" />
         </ContainerItem>
     </>
 )
